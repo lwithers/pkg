@@ -10,3 +10,5 @@ standard library, golang.org/x packages, and other packages in this repository.
 - **stdinprompt** — prompts users that we are awaiting data on stdin.
 - **writefile** — idiomatic Unix file writing (tmpfile, rename into place once
 	synced, dereference symlinks).
+- **byteio** — byte-oriented I/O adapters, and simple binary read/write
+	functions. Useful if you are reading and writing lots of small values.
