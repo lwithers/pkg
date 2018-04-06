@@ -10,13 +10,13 @@ import (
 
 func ExampleNew() {
 	q := make([]byte, 4096)
-	in = stdinprompt.New()
+	in := stdinprompt.New()
 	for {
 		n, err := in.Read(q)
 		if err != nil {
 			fmt.Fprintln(os.Stderr, err)
 			os.Exit(1)
 		}
-		os.Stdout.Write(bytes.ToUpper(q))
+		os.Stdout.Write(bytes.ToUpper(q[:n]))
 	}
 }
