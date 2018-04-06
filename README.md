@@ -1,5 +1,7 @@
 # Packages for Go
 
+[![GoDoc](https://godoc.org/github.com/lwithers/pkg?status.svg)](https://godoc.org/github.com/lwithers/pkg)
+
 This repository contains small, general purpose utility packages for Go. Its
 structure and content are inspired by https://github.com/pkg . As a guideline
 for inclusion in this repository, packages should only depend upon the
