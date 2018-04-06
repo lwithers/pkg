@@ -15,7 +15,7 @@ Flush() must be called at operation completion time. This can be done
 succinctly with:
 
 	bout := byteio.NewWriter(out)
-	defer byteio.FlushIfNecessary(out)
+	defer byteio.FlushIfNecessary(bout)
 
 The binary read/write functions were benchmarked (using bufio) to determine that,
 for sizes up to and including 8 bytes, it was faster to call
