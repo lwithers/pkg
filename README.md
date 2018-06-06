@@ -14,3 +14,4 @@ standard library, golang.org/x packages, and other packages in this repository.
 	synced, dereference symlinks).
 - **byteio** — byte-oriented I/O adapters, and simple binary read/write
 	functions. Useful if you are reading and writing lots of small values.
+- **versionsort** — simple version sort akin to C's versionsort(3).
