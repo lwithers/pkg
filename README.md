@@ -1,17 +1,9 @@
-# Packages for Go
+# Project moved
 
-[![GoDoc](https://godoc.org/github.com/lwithers/pkg?status.svg)](https://godoc.org/github.com/lwithers/pkg)
+This project has moved to decentralised version control.
 
-This repository contains small, general purpose utility packages for Go. Its
-structure and content are inspired by https://github.com/pkg . As a guideline
-for inclusion in this repository, packages should only depend upon the
-standard library, golang.org/x packages, and other packages in this repository.
-
-## Overview
-
-- **stdinprompt** — prompts users that we are awaiting data on stdin.
-- **writefile** — idiomatic Unix file writing (tmpfile, rename into place once
-	synced, dereference symlinks).
-- **byteio** — byte-oriented I/O adapters, and simple binary read/write
-	functions. Useful if you are reading and writing lots of small values.
-- **versionsort** — simple version sort akin to C's versionsort(3).
+Packages are replaced as follows:
+ - `github.com/lwithers/pkg/byteio` → `src.lwithers.me.uk/go/byteio` [(view website)](https://src.lwithers.me.uk/go/byteio)
+ - `github.com/lwithers/pkg/stdinprompt` → `src.lwithers.me.uk/go/stdinprompt` [(view website)](https://src.lwithers.me.uk/go/stdinprompt)
+ - `github.com/lwithers/pkg/versionsort` → `src.lwithers.me.uk/go/versionsort` [(view website)](https://src.lwithers.me.uk/go/versionsort)
+ - `github.com/lwithers/pkg/writefile` → `src.lwithers.me.uk/go/writefile` [(view website)](https://src.lwithers.me.uk/go/writefile)
